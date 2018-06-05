@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>太极图</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+	h1{
+	   margin: 100px ;
+       text-align: center;
+	
+	}
+
+        div{
+            margin: 200px auto 0 ;
+            height: 200px;
+            width: 200px;
+            border-radius:50% ;
+            border: 1px solid black;
+            background: linear-gradient(to right , white 50%,black 50%);
+            transition:18s ease-out;
+        }
+        ul:nth-child(1){    
+            top:0;
+            height:100px;
+            width: 100px;
+            border-radius: 50%;
+            background:black;
+            margin: 0 auto;
+            display: flex;
+        }
+        ul:nth-child(2){    
+            bottom:0;
+            height:100px;
+            width: 100px;
+            border-radius: 50%;
+            background:white; 
+            margin: 0 auto; 
+            display: flex;   
+        }
+        .li_1{
+            height: 33px;
+            width:33px;
+            border-radius: 50%;
+            background:white;
+            margin: auto;
+            list-style: none;
+        }
+        .li_2{
+            height: 33px;
+            width:33px;
+            border-radius: 50%;
+            background:black;
+            margin: auto;
+            list-style: none;
+        }
+        div:hover{
+            transform: rotate(-1800deg);
+        }
+    </style>
+</head>
+<body>
+	<h1>太极生两仪，两仪生四象，四象生八卦</h1>
+    <div>
+        <ul>
+           <li class="li_1"></li>
+        </ul>
+        <ul>
+            <li class="li_2"></li>
+        </ul> 
+    </div>
+    <h1>一阴一阳之谓道,乐天知命故不忧</h1>   
+</body>
+</html>
